@@ -2,28 +2,28 @@
 class Omamori < Formula
   desc "Blue-team toolkit: log detection, forensic triage and AI analysis that code checks"
   homepage "https://github.com/kenzietann/omamori"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kenzietann/omamori/releases/download/v0.2.0/omamori_0.2.0_darwin_arm64.tar.gz"
-      sha256 "5913c21f276d60b554498451fe1fdb5421738b2568874326da0a6f5d740937af"
+      url "https://github.com/kenzietann/omamori/releases/download/v0.3.0/omamori_0.3.0_darwin_arm64.tar.gz"
+      sha256 "024154ae311ba165b12d07a5497e815acad25ad65691ce3bd1c53ed24f2c85b2"
     end
     on_intel do
-      url "https://github.com/kenzietann/omamori/releases/download/v0.2.0/omamori_0.2.0_darwin_amd64.tar.gz"
-      sha256 "5a324ed7839c9089abe5bdcf1b78f219c3ecb803fc5e72511e61b29414c26bb3"
+      url "https://github.com/kenzietann/omamori/releases/download/v0.3.0/omamori_0.3.0_darwin_amd64.tar.gz"
+      sha256 "0fe9a592b6407053c90ac49c6fdfe91aa60778de2b13f3d23ff190d6c90e7742"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kenzietann/omamori/releases/download/v0.2.0/omamori_0.2.0_linux_arm64.tar.gz"
-      sha256 "3600513b3773ed611ffad88c912c3083b96beef7e865302b6b089c324e5a391a"
+      url "https://github.com/kenzietann/omamori/releases/download/v0.3.0/omamori_0.3.0_linux_arm64.tar.gz"
+      sha256 "eae25fad95437f917a9038a787adbc8ae9b00a30885bdf4d705575a29002d812"
     end
     on_intel do
-      url "https://github.com/kenzietann/omamori/releases/download/v0.2.0/omamori_0.2.0_linux_amd64.tar.gz"
-      sha256 "132e8ab6d01e85fef672076b08b51829355515a18106eaac0367757959ae3727"
+      url "https://github.com/kenzietann/omamori/releases/download/v0.3.0/omamori_0.3.0_linux_amd64.tar.gz"
+      sha256 "f704d63d507d1a705ae417644577e3aa8df38125d530eeab8b8530ed5bee36e0"
     end
   end
 
